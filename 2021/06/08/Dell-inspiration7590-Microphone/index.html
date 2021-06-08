@@ -190,7 +190,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      202 字
+      212 字
     </span>
   
 
@@ -242,7 +242,7 @@
             
               <p class="note note-info">
                 
-                  本文最后更新于：2021-06-09 03:36:34 +08:00
+                  本文最后更新于：2021-06-09 03:38:57 +08:00
                 
               </p>
             
@@ -250,7 +250,7 @@
               <h3 id="麦克风没有出现在系统的设置里"><a href="#麦克风没有出现在系统的设置里" class="headerlink" title="麦克风没有出现在系统的设置里"></a>麦克风没有出现在系统的设置里</h3><p>使用下面的命令获得麦克风的card and device number</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ arecord -l<br><br>**** List of CAPTURE Hardware Devices ****<br>card 0: sofhdadsp [sof-hda-dsp], device 0: HDA Analog (*) []<br>  Subdevices: 1/1<br>  Subdevice <span class="hljs-comment">#0: subdevice #0</span><br></code></pre></td></tr></table></figure>
 
-<p><code>hw:CARD,DEVICE</code><br>然后，编辑<code>/etc/pulse/default.pa</code>，插入<code>load-module</code>加载声卡</p>
+<p>用上面获得的数值，得到<code>hw:CARD,DEVICE</code><br>然后，编辑<code>/etc/pulse/default.pa</code>，插入<code>load-module</code>加载声卡</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">load-module module-alsa-source device=hw:0,0<br><span class="hljs-comment"># the line above should be somewhere before the line below</span><br>.ifexists module-udev-detect.so<br></code></pre></td></tr></table></figure>
 
 <p>最后，重启pulseaudiio去应用新设置</p>
