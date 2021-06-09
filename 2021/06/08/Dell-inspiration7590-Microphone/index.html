@@ -190,7 +190,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      295 字
+      307 字
     </span>
   
 
@@ -200,7 +200,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      4
+      5
        分钟
     </span>
   
@@ -242,7 +242,7 @@
             
               <p class="note note-info">
                 
-                  本文最后更新于：2021-06-09 08:38:25 +08:00
+                  本文最后更新于：2021-06-09 08:43:42 +08:00
                 
               </p>
             
@@ -262,7 +262,7 @@
 <p>如果使用中的驱动是snd_hda_intel，编辑<code>/etc/modprobe.d/dsp-fix.conf</code>或者<code>/etc/modprobe.d/audio-fix.conf</code>:</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">cat dsp-fix.conf      <br><span class="hljs-comment"># options snd-intel-dspcfg dsp_driver=1</span><br></code></pre></td></tr></table></figure>
 
-<p>将这一行注释掉，就会启用sof-hda-dsp driver。然后就可以在系统设置中看见麦克风。</p>
+<p>将这一行注释掉<br>然后使用<code>pacman</code>安装<code>sof-firmware</code>和<code>alsa-ucm-conf</code>固件，就会启用sof-hda-dsp driver。之后可以在系统设置中看见麦克风。</p>
 <h3 id="References"><a href="#References" class="headerlink" title="References"></a>References</h3><ol>
 <li><a target="_blank" rel="noopener" href="https://wiki.archlinux.org/title/PulseAudio/Troubleshooting#Microphone_not_detected_by_PulseAudio">https://wiki.archlinux.org/title/PulseAudio/Troubleshooting#Microphone_not_detected_by_PulseAudio</a></li>
 <li><a target="_blank" rel="noopener" href="https://wiki.archlinux.org/title/Dell_Inspiron_15_(7590)#Use_the_new_sof-hda-dsp_driver">https://wiki.archlinux.org/title/Dell_Inspiron_15_(7590)#Use_the_new_sof-hda-dsp_driver</a></li>
