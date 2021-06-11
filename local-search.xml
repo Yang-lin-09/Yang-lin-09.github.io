@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>Linux and Windows grub</title>
+    <link href="/2021/06/12/Linux-and-Windows-grub/"/>
+    <url>/2021/06/12/Linux-and-Windows-grub/</url>
+    
+    <content type="html"><![CDATA[<h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p>更新linux引导中只有linux的引导，没有Windows的引导</p><h3 id="下载os-prober"><a href="#下载os-prober" class="headerlink" title="下载os-prober"></a>下载os-prober</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ sudo pacman -S os-prober<br></code></pre></td></tr></table></figure><h3 id="生成新的引导文件"><a href="#生成新的引导文件" class="headerlink" title="生成新的引导文件"></a>生成新的引导文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">grub-mkconfig -o /boot/grub/grub.cfg<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Dell inspiration7590 Microphone</title>
     <link href="/2021/06/08/Dell-inspiration7590-Microphone/"/>
     <url>/2021/06/08/Dell-inspiration7590-Microphone/</url>
