@@ -8,9 +8,15 @@
     <link href="/2021/06/17/Activate-Windows-10/"/>
     <url>/2021/06/17/Activate-Windows-10/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<h3 id="激活Windows10或者11"><a href="#激活Windows10或者11" class="headerlink" title="激活Windows10或者11"></a>激活Windows10或者11</h3><p>以管理员权限运行CMD</p><p>清除原先的密钥管理工具：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">slmgr /ckms<br></code></pre></td></tr></table></figure>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>Windows10</tag>
+      
+    </tags>
     
   </entry>
   
