@@ -170,6 +170,47 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
+        <a href="/2021/07/04/Archlinux-shuts-down-slowly/" target="_self">
+          Archlinux shuts down slowly
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2021/07/04/Archlinux-shuts-down-slowly/" target="_self">
+          
+          
+            
+          
+          archlinux关机缓慢Archlinux在关机的时候，经常会等很久，且屏幕上显示A stop job is running for Session c1 of user **，这是由于systemd无法终止某些服务的问题造成的。
+解决方法编辑/etc/systemd/system.conf文件，将
+1#DefaultTimeoutStopSec=90s
+
+改为
+1DefaultTimeoutS
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2021-07-04 23:44" pubdate>
+              2021-07-04
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
         <a href="/2021/06/17/Activate-Windows-10/" target="_self">
           Activate Windows 10
         </a>

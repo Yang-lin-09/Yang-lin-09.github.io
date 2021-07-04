@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>Archlinux shuts down slowly</title>
+    <link href="/2021/07/04/Archlinux-shuts-down-slowly/"/>
+    <url>/2021/07/04/Archlinux-shuts-down-slowly/</url>
+    
+    <content type="html"><![CDATA[<h3 id="archlinux关机缓慢"><a href="#archlinux关机缓慢" class="headerlink" title="archlinux关机缓慢"></a>archlinux关机缓慢</h3><p>Archlinux在关机的时候，经常会等很久，且屏幕上显示<code>A stop job is running for Session c1 of user **</code>，这是由于systemd无法终止某些服务的问题造成的。</p><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>编辑<code>/etc/systemd/system.conf</code>文件，将</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment">#DefaultTimeoutStopSec=90s</span><br></code></pre></td></tr></table></figure><p>改为</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">DefaultTimeoutStopSec=10s<br></code></pre></td></tr></table></figure><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ol><li><a href="https://blog.fevenor.com/2016/04/15/archlinux-long-time-to-shutdown/">https://blog.fevenor.com/2016/04/15/archlinux-long-time-to-shutdown/</a></li></ol>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Activate Windows 10</title>
     <link href="/2021/06/17/Activate-Windows-10/"/>
     <url>/2021/06/17/Activate-Windows-10/</url>
