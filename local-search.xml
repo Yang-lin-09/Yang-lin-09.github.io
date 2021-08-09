@@ -4,6 +4,40 @@
   
   
   <entry>
+    <title>package downgrades</title>
+    <link href="/2021/08/10/package-downgrades/"/>
+    <url>/2021/08/10/package-downgrades/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>pacman log</title>
+    <link href="/2021/08/10/pacman-log/"/>
+    <url>/2021/08/10/pacman-log/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>linux</tag>
+      
+      <tag>pacman</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Archlinux restore from timeshift backup</title>
     <link href="/2021/07/14/Archlinux-restore-from-timeshift-backup/"/>
     <url>/2021/07/14/Archlinux-restore-from-timeshift-backup/</url>
