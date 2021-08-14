@@ -8,7 +8,7 @@
     <link href="/2021/08/10/package-downgrades/"/>
     <url>/2021/08/10/package-downgrades/</url>
     
-    <content type="html"><![CDATA[<ol><li><p>安装downgrade软件</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo pacman -Syyu<br>sudo pacman -S downgrade<br></code></pre></td></tr></table></figure></li><li><p>使用downgrade降级制定的包</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo downgrade package<br></code></pre></td></tr></table></figure></li></ol>]]></content>
+    <content type="html"><![CDATA[<ol><li>安装downgrade软件</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo pacman -Syyu<br>sudo pacman -S downgrade<br></code></pre></td></tr></table></figure><ol start="2"><li>使用downgrade降级制定的包</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo downgrade package<br></code></pre></td></tr></table></figure>]]></content>
     
     
     
