@@ -4,9 +4,9 @@
   
   
   <entry>
-    <title>package downgrades</title>
-    <link href="/2021/08/10/package-downgrades/"/>
-    <url>/2021/08/10/package-downgrades/</url>
+    <title>Package downgrades</title>
+    <link href="/2021/08/10/Package-downgrades/"/>
+    <url>/2021/08/10/Package-downgrades/</url>
     
     <content type="html"><![CDATA[<h3 id="安装downgrade软件"><a href="#安装downgrade软件" class="headerlink" title="安装downgrade软件"></a>安装downgrade软件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo pacman -Syyu<br>sudo pacman -S downgrade<br></code></pre></td></tr></table></figure><h3 id="使用downgrade降级制定的包"><a href="#使用downgrade降级制定的包" class="headerlink" title="使用downgrade降级制定的包"></a>使用downgrade降级制定的包</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo downgrade package<br></code></pre></td></tr></table></figure>]]></content>
     
@@ -25,9 +25,9 @@
   
   
   <entry>
-    <title>pacman log</title>
-    <link href="/2021/08/10/pacman-log/"/>
-    <url>/2021/08/10/pacman-log/</url>
+    <title>Pacman log</title>
+    <link href="/2021/08/10/Pacman-log/"/>
+    <url>/2021/08/10/Pacman-log/</url>
     
     <content type="html"><![CDATA[<h3 id="查看pacman的更新记录"><a href="#查看pacman的更新记录" class="headerlink" title="查看pacman的更新记录"></a>查看pacman的更新记录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo vim /var/<span class="hljs-built_in">log</span>/pamcan.log<br></code></pre></td></tr></table></figure><h3 id="vim跳转到文件的结尾和开头"><a href="#vim跳转到文件的结尾和开头" class="headerlink" title="vim跳转到文件的结尾和开头"></a>vim跳转到文件的结尾和开头</h3><p>vim使用<code>$</code>跳转到文件的结尾，使用<code>1</code>跳转到文件的开头。</p>]]></content>
     
